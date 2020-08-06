@@ -1,0 +1,26 @@
+#todo codigo dart comeca com:
+
+void main () {
+
+}
+
+#Printando um Hellow World
+
+void main() {
+    print("Hellow World");
+}
+
+Link para fazer teste de Dart: https://dartpad.dev/
+
+#Armazenando dados
+
+void main() {
+    String nome = "Lojinha do Airton"; //Armazenando texto
+    int laranjas = 5; //Armazenando numeros inteiros
+    double preco = 10.5; //Armazenando numeros quebrados
+    bool aindaTem = true; //Armazenando verdadeiro ou falso
+    laranjas = 10; //Modificando uma variavel
+
+    print("O nome da Lojinha é $nome); //Concatenando
+    
+}
