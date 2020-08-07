@@ -16,11 +16,24 @@ Link para fazer teste de Dart: https://dartpad.dev/
 
 void main() {
     String nome = "Lojinha do Airton"; //Armazenando texto
-    int laranjas = 5; //Armazenando numeros inteiros
+    int laranjas; //Armazenando numeros inteiros
     double preco = 10.5; //Armazenando numeros quebrados
     bool aindaTem = true; //Armazenando verdadeiro ou falso
-    laranjas = 10; //Modificando uma variavel
+    laranjas = 10; //Modificando uma variavel, tambem posso apenas declarar a variavel e depois colocar o valor dela
 
     print("O nome da Lojinha é $nome); //Concatenando
     
+}
+
+#Tipos de variaveis
+
+void main () {
+    var teste: 1;
+    print("teste"); //Aqui no caso nao preciso declarar o tipo da variavel
+}
+
+void main () {
+    dynamic teste = 1; //O tipo de variaveis dynamics permitir eu alterar a var pra qualquer tipo
+    teste = "hahaha" //Aqui no caso estou mudando a var teste de int para String
+    print("teste") //Imprimindo a var teste
 }
